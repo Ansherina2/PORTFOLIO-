@@ -1,0 +1,117 @@
+html,body {
+    height: 100%;
+    background-color:black;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand{
+    margin: 3%;
+}
+
+main {
+    flex: 1 0 auto;
+    color: white;
+    padding-bottom: -10%;
+}
+
+ .nav-item{
+    font-size: 20px;
+    margin-inline-start: 10%;
+    font-family: sans-serif;
+    color: white;
+}
+
+.nav-link{
+    color: white; 
+}
+ .nav-link:hover{
+    color: red;
+}
+.navbar .nav-link.active{
+    color: red;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    transition: all 0.4s ease;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+.card:hover{
+    box-shadow: -6px 6px 0 0 red;
+}
+.card .btn{
+    background-color: red;
+}
+.card .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.text{
+    margin-bottom: 2%;
+}
+
+
+
+
+h1{
+    font-size: 35px;
+    font-family: arial;
+    margin-bottom: -1%;
+}
+
+h2{
+    color: red;
+}
+
+
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.color-overlay {
+    background-color: white;
+    min-height: 60vh;
+
+}
+
+.singleCol {
+    max-width: 750px;
+}
+
+footer {
+    border-top: 1px solid  red ;
+}
+
+footer a {
+    color: rgba(19, 14, 14, 0.342);
+}
+
+footer a:hover {
+    color: red;
+    margin-top: -2%;
+    margin-bottom: -2%;
+}
+
+@media (max-width: 768px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
